@@ -12,4 +12,5 @@ I started by using three or so methods to write ASL and dropped them as I found 
 Then I finally decided I should learn for real, but ASL Unviversity relies upon videos and drawings while SignWriting is written to a Deaf audience.
 
 After several false starts I think I'm actually happy enough with what I've come up with share the first 15 lessons.
+As well as my experiment with an integrated version of lesson 1.
 
