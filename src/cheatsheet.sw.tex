@@ -1,0 +1,408 @@
+\documentclass{article}
+
+\usepackage{array}
+\usepackage{fontspec}
+\usepackage[a4paper, margin=40mm]{geometry}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{tikz}
+
+\begin{document}
+
+\newfontfamily\swfill{SuttonSignWritingFill.ttf}
+\newfontfamily\swline{SuttonSignWritingLine.ttf}
+\newlength{\signsize}
+\setlength{\signsize}{10pt}
+\pagestyle{empty}
+
+\begin{multicols}{3}
+\noindent
+\textbf{Categories}
+
+\noindent
+\begin{tabular}{r@{}c@{}l}
+\textbf{1}&B508x515S10000493x485&Hand\\
+\textbf{2}&B507x508S22a00494x493&Movement\\
+\textbf{3}&B506x504S2f700494x497&Timing\\
+\textbf{4}&B518x518S30a00482x483&Face\\
+\textbf{5}&B523x506S36e00477x494&Body\\
+\textbf{6}&B522x520S38100479x481&Detail\\
+\textbf{7}&B537x504S38700463x496&Punctuation\\
+\end{tabular}
+
+\noindent
+\textbf{Symbol Groups}
+
+\noindent
+\begin{tabular}{r@{}c@{}l}
+\textbf{1}&B508x515S10000493x485&One\\
+\textbf{2}&B508x515S10e00493x485&Two\\
+\textbf{3}&B512x515S11e00489x485&Three\\
+\textbf{4}&B511x516S14400489x485&Four\\
+\textbf{5}&B512x516S14c00489x485&Five\\
+\textbf{6}&B509x515S18600491x485&Six\\
+\textbf{7}&B510x515S1a400490x485&Seven\\
+\textbf{8}&B510x515S1ba00490x485&Eight\\
+\textbf{9}&B510x515S1cd00490x485&Nine\\
+\textbf{10}&B512x508S1f500488x493&Thumb\\
+\textbf{11}&B505x506S20500496x495&Contact\\
+\textbf{12}&B504x504S21600496x496&Finger\\
+\textbf{13}&B507x508S22a00494x493&Wall\\
+\textbf{14}&B507x511S25500494x489&Diagonal\\
+\textbf{15}&B507x508S26500493x493&Floor\\
+\textbf{16}&B506x511S28800494x489&Curve wall\\
+\textbf{17}&B509x512S2a600492x489&Hit wall\\
+\textbf{18}&B510x512S2b700491x489&Hit floor\\
+\textbf{19}&B511x505S2d500489x496&Curve floor\\
+\textbf{20}&B512x514S2e300489x487&Circle\\
+\textbf{21}&B506x504S2f700494x497&Timing\\
+\textbf{22}&B518x518S2ff00482x483&Head\\
+\textbf{23}&B518x518S30a00482x483&Eye\\
+\textbf{24}&B518x518S32a00482x483&Middle\\
+\textbf{25}&B518x518S33b00482x483&Lip\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{r@{}c@{}l}
+\textbf{26}&B518x518S35900482x483&Mouth\\
+\textbf{27}&B521x502S36d00479x498&Trunk\\
+\textbf{28}&B512x512S37600488x489&Limb\\
+\textbf{29}&B521x521S37f00480x480&Detail\\
+\textbf{30}&B537x504S38700463x496&Punctuation\\
+\end{tabular}
+
+\noindent
+\textbf{Palmshapes}
+
+\noindent
+\begin{tabular}{r@{}c@{}l}
+\textbf{1}&B508x508S20300493x493&Fist\\
+\textbf{2}&B508x508S17600492x492&Circle\\
+\textbf{3}&B505x510S15c12496x490&Side\\
+\textbf{4}&B509x510S16d00492x490&Cup\\
+\textbf{5}&B506x514S15a00494x487&Flat\\
+\textbf{6}&B500x500S20410500x500&Fist Heel\\
+\textbf{7}&B500x500S15c10500x500&Flat Heel\\
+\end{tabular}
+
+\noindent
+\textbf{Finger Shapes}
+
+\noindent
+\begin{tabular}{r@{}c@{}l}
+\textbf{1}&B500x500S10000500x500&Extended\\
+\textbf{2}&B508x515S10b10492x486&Hinged\\
+\textbf{3}&B500x500S10a00500x500&Cupped\\
+\textbf{4}&B500x500S10600500x500&Bent\\
+\textbf{5}&B508x510S10900493x490&Bumped\\
+\textbf{6}&B500x500S1e600500x500&Group Bent\\
+\textbf{7}&B500x500S1ed00500x500&Group Cup\\
+\textbf{8}&B500x500S1ef00500x500&Group Straight\\
+\end{tabular}
+
+\noindent
+\textbf{Handshapes}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Index}\\
+B508x515S10000493x485&B508x515S10110492x485\\
+B511x515S10510489x485&B508x513S10610493x487\\
+B507x513S10a10493x487\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Index Middle}\\
+B508x515S10e00493x485&B508x514S11010493x487\\
+B508x515S11510493x485&B507x514S11810493x487\\
+B509x513S11910492x488&B508x515S11a10493x485\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Index Middle Thumb}\\
+B512x515S11e00489x485&B512x514S12110488x487\\
+B511x514S12210489x487&B514x515S12410487x485\\
+B511x512S12810489x488&B512x511S12910489x489\\
+B512x515S12d10489x485&B512x513S13210488x488\\
+B511x515S13310489x485&B512x515S13810488x485\\
+B515x508S13f10486x493&B515x515S14010486x485\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Four Fingers}\\
+B511x516S14400489x485&B513x516S14510488x485\\
+B507x511S14710493x489&B508x508S14a10493x493\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Five Fingers}\\
+B512x516S14c00489x485&B515x509S14d10486x491\\
+B513x516S14e10488x485&B515x508S14f10486x492\\
+B513x516S15010488x485&B515x508S15110486x492\\
+B508x513S15310493x488&B508x513S15410493x488\\
+B509x513S15710491x487&B506x514S15a10494x487\\
+B510x505S15c10490x496&B510x514S15d10491x487\\
+B514x505S15e10487x495&B509x510S16d10492x490\\
+B512x510S16f10488x490&B509x510S17110492x490\\
+B508x508S17610492x492&B512x508S17d10489x493\\
+B515x508S18010486x493&B512x508S18210489x493\\
+B513x508S18510488x493\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Baby Finger}\\
+B509x515S18600491x485&B509x515S18710491x486\\
+B510x515S18b10490x485&B508x515S18c10493x485\\
+B510x513S18d10490x488&B511x510S19210490x491\\
+B514x510S19a10486x490&B515x511S19b10486x489\\
+B514x515S19c10486x486&B515x515S19d10486x486\\
+B510x515S1a010490x486\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Ring Finger}\\
+B511x514S1a510490x486\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Middle Finger}\\
+B511x514S1bb10490x486&B512x514S1c310489x486\\
+B515x514S1c510485x486\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Index Thumb}\\
+B511x515S1ce10489x485&B515x514S1d410486x486\\
+B512x515S1dc10488x485&B512x515S1e010489x485\\
+B512x513S1e110488x487&B512x512S1e610489x488\\
+B511x511S1ea10489x490&B512x510S1eb10488x491\\
+B511x510S1ec10489x491&B513x510S1ed10487x491\\
+B515x508S1f010486x493&B515x508S1f110486x493\\
+B515x508S1f410486x493\\
+\end{tabular}
+
+\noindent
+\begin{tabular}{cc}
+\multicolumn{2}{c}{Thumb}\\
+B512x508S1f500488x493&B512x505S1f610488x495\\
+B510x508S1f710490x493&B512x508S1f910489x493\\
+B508x510S1fb10493x491&B508x508S20310493x493\\
+B508x506S20410493x495\\
+\end{tabular}
+
+\noindent
+\textbf{Contact}
+
+\noindent
+\begin{tabular}{r@{}cc}
+&&Double\\
+&Single&Between\\
+Touch &B505x506S20500496x495&B517x508S20710484x493\\
+Grasp &B505x505S20800495x495&B517x508S20a10483x493\\
+Strike&B507x507S20b00494x494&B520x508S20d10480x493\\
+Brush &B506x506S20e00494x494&B519x508S21010481x493\\
+Rub   &B507x507S21100494x493&B520x508S21310480x492\\
+\end{tabular}
+
+\noindent
+\textbf{Finger Movement}
+
+\noindent
+\begin{tabular}{ccc}
+Squeeze&Flick&Hinge\\
+B504x504S21600496x496&B504x504S21b00496x496&B506x504S22100494x497\\
+\end{tabular}
+
+\noindent
+\textbf{Movement}
+
+\noindent
+\begin{tabular}{rccc}
+&Left&Both&Right\\
+&B507x508S22a10494x493&B507x508S22a20494x493&B507x508S22a00494x493\\
+Wrist flex&B509x509S22e10492x491&B509x509S22e20492x491&B509x509S22e00492x491\\
+\multirow{2}{*}{Rotate}&B511x513S24b10489x487&B511x513S24b20489x487&B511x513S24b00489x487\\
+&B511x515S24e10490x485&B511x515S24e20490x485&B511x515S24e00490x485\\
+Shake&B509x517S25110491x484&B509x517S25120491x484&B509x517S25100491x484\\
+Spiral&B513x518S25210488x483&B513x518S25220488x483&B513x518S25200488x483\\
+\end{tabular}
+
+\columnbreak
+
+\noindent
+\begin{tabular}{ccc}
+&up\\
+&B507x508S22a00494x493\\
+B508x507S22a02493x494&&B508x507S22a06493x494\\
+&B507x508S22a04494x493\\
+&down\\
+\\
+\multicolumn{3}{c}{diagonally up}\\
+away&&towards\\
+B508x515S25600493x485&&B508x515S25a00492x485\\
+\\
+&away\\
+&B507x508S26500493x493\\
+B508x507S26502493x493&&B508x507S26506493x493\\
+&B507x508S26504493x493\\
+&towards\\
+\end{tabular}
+
+\noindent
+\textbf{Circles}
+
+\noindent
+\begin{tabular}{rcc}
+Arm&B512x514S2e300489x487&B508x513S2e700493x488\\
+Wrist&B509x512S2ed00492x489&B509x510S2ef00491x490\\
+Fingers&B508x509S2f100492x492&B505x511S2f300496x489\\
+\end{tabular}
+
+\vfil
+
+\columnbreak
+
+\noindent
+\textbf{Dynamics \& Timing}
+
+\noindent
+\begin{tabular}{cccc}
+fast&slow&tense&relax\\
+B506x504S2f700494x497&B519x506S2f800481x495&B505x503S2f900495x498&B506x504S2fa00495x497\\
+\\
+&&every\\
+same&alternate&other&gradual\\
+B508x503S2fb00493x497&B508x506S2fc00493x495&B512x503S2fd00489x497&B508x507S2fe00493x493\\
+\end{tabular}
+
+\noindent
+\textbf{Faces}
+
+\noindent
+\begin{tabular}{rc}
+Eyebrows&M518x518S30b00482x483\\
+Forehead&M518x518S31100482x483\\
+Eyes&M518x518S31500482x483\\
+Cheeks&M518x518S32b00482x483\\
+Ears&M524x518S33000476x483\\
+Nose&M518x518S33100482x483\\
+Mouth&M518x518S33b00482x483\\
+Tongue&M518x518S35900482x483\\
+Teeth&M518x518S36100482x483\\
+Neck&M518x523S36a00482x477\\
+Hair&M518x518S36b00483x482\\
+Excitement&M523x524S36c00477x477\\
+\end{tabular}
+
+\noindent
+\textbf{Punctuation}
+
+\noindent
+\begin{tabular}{rc}
+comma&B537x504S38700463x496\\
+period&B536x504S38800464x496\\
+semicolon / question&B536x507S38900464x493\\
+colon&B536x511S38a00464x490\\
+\end{tabular}
+\end{multicols}
+\end{document}
+
+\section*{Symbol Group One}
+
+\begin{tabular}{|r|c|l|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Fist}}\\
+\hline
+1&Index                 &M508x515S10000493x485\\
+2&Index hinged          &M508x515S10b10493x486\\
+3&Index hinged low      &M510x511S10c10490x489\\
+4&Index cupped          &M507x513S10a10493x487\\
+5&Index bent            &M508x513S10610493x487\\
+6&Thumb under index bent&M508x513S10810493x487\\
+7&Index raised knuckle  &M507x510S10910493x490\\
+\hline
+\multicolumn{3}{|c|}{\textbf{Circle}}\\
+\hline
+ 8&Circle index      &M508x515S10110492x485\\
+ 9&Circle index hinge&M509x514S10d10492x487\\
+10&Circle index bent &M508x513S10710492x487\\
+\hline
+\multicolumn{3}{|c|}{\textbf{Cup}}\\
+\hline
+11&Cup index&M508x515S10210492x485\\
+\hline
+\multicolumn{3}{|c|}{\textbf{Side}}\\
+\hline
+12&Hinge index&M511x515S10410489x485\\
+13&Oval index &M510x515S10310490x485\\
+14&Angle index&M511x515S10510489x485\\
+\hline
+\end{tabular}
+
+For each one we start with the longest possible finger and shorten it.
+For the side palmshape with start with the most open and close it.
+
+\eject
+
+\begin{tabular}{m{7mm}m{4mm}*{5}{m{2mm}}}
+B530x536S15a40514x508S15a48474x509S2a200507x473S2a218470x474S20500496x519S2fb00492x464&
+B511x536S38a02490x464&
+B508x508S20300493x493&
+B511x509S17500490x492&
+B508x508S17600492x492&
+B509x510S16d00492x490&
+B505x510S15c12496x490\\
+B534x528S15a50508x501S15a58482x501S2a208511x472S2a210467x472S2fb00493x472S20500496x507&
+B511x536S38a02490x464&
+B510x505S15c10490x496&
+B506x514S15a00494x487&
+B506x514S16200494x487&
+B509x513S15900491x487\\
+\end{tabular}
+
+\eject
+
+\begin{tabular}{m{2mm}m{4mm}*{7}{p{2mm}}}
+B508x508S20300493x493&
+B511x536S38a02490x464&
+B508x515S10000493x485&
+B508x515S10b10493x486&
+B510x511S10c10490x489&
+B507x513S10a10493x487&
+B508x513S10610493x487&
+B508x513S10810493x487&
+B507x510S10910493x490\\
+B511x509S17500490x492&
+B511x536S38a02490x464\\
+B508x508S17600492x492&
+B511x536S38a02490x464&
+B508x515S10110492x485&
+B509x514S10d10492x487&
+B508x513S10710492x487\\
+B509x510S16d00492x490&
+B511x536S38a02490x464&
+B508x515S10210492x485\\
+B505x510S15c12496x490&
+B511x536S38a02490x464&
+B511x515S10410489x485&
+B510x515S10310490x485&
+B511x515S10510489x485\\
+B510x505S15c10490x496&
+B511x536S38a02490x464\\
+B506x514S15a00494x487&
+B511x536S38a02490x464\\
+B506x514S16200494x487&
+B511x536S38a02490x464\\
+B509x513S15900491x487&
+B511x536S38a02490x464\\
+\end{tabular}
+
+\end{document}
