@@ -1,5 +1,5 @@
 
-FSW2TEX = fswtotex
+FSW2TEX = fswtotex --nomirror --rotate 0
 MOVE = mv -f
 
 PDFFILES  = pdf/cheatsheet.pdf
